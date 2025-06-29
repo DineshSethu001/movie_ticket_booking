@@ -1,5 +1,0 @@
-export {default as Dashboard} from './Dashboard.jsx'
-export {default as AddShows} from './AddShows.jsx'
-export {default as Layout} from './Layout.jsx'
-export {default as ListBookings} from './ListBookings.jsx'
-export {default as ListShows} from './ListShows.jsx'
