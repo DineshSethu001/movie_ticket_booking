@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 import { dummyBookingData } from '../../assets/assets'
 import { Loading } from '../../components'
-import Title from '../../components/Admin/Title'
+import Title from '../../components/Admin/Title.jsx'
 import { dateFormat } from '../../lib/dateFormat'
 
 

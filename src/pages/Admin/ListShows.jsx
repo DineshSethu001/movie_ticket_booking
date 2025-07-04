@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { dummyShowsData } from '../../assets/assets'
 import { useState } from 'react';
 import { Loading } from '../../components';
-import Title from '../../components/Admin/Title';
+import Title from '../../components/Admin/Title.jsx';
 import { dateFormat } from '../../lib/dateFormat';
 
 
