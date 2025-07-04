@@ -1,9 +1,9 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { dummyBookingData } from '../../assets/assets'
-import  Loading  from '../../components/Loading.jsx'
-import Title from '../../components/Admin/Title.jsx'
-import { dateFormat } from '../../lib/dateFormat'
+import { dummyBookingData } from '@/assets/assets'
+import Loading from '@/components/Loading.jsx'
+import Title from '@/components/Admin/Title.jsx'
+import { dateFormat } from '@/lib/dateFormat'
 
 
 const ListBookings = () => {
