@@ -1,10 +1,12 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { dummyShowsData } from '../../assets/assets'
-import { useState } from 'react';
-import { Loading } from '../../components';
-import Title from '../../components/Admin/Title.jsx';
-import { dateFormat } from '../../lib/dateFormat';
 
+
+
+import React from 'react'
+import Title from '@/components/Admin/Title.jsx' // <--- CORRECTED
+import Loading from '@/components/Loading.jsx'     // <--- CORRECTED
+import { dateFormat } from '@/lib/dateFormat'
 
 const ListShows = () => {
 
