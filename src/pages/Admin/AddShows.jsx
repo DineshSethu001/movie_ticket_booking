@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { dummyShowsData } from '../../assets/assets'
 import { Loading } from '../../components'
-import Title from '../../components/Admin/Title'
+import Title from '../../components/Admin/Title.jsx'
 import { CheckIcon, StarIcon, DeleteIcon } from 'lucide-react'
 import { kConverter } from '../../lib/KConverter'
 const AddShows = () => {
