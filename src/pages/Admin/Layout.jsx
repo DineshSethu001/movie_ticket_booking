@@ -1,7 +1,7 @@
 import React from 'react'
 
-import AdminNavbar  from '../../components/Admin/AdminNavbar.jsx';
-import AdminSidebar from '../../components/Admin/AdminSidebar.jsx';
+import AdminNavbar  from '@/components/Admin/AdminNavbar.jsx';
+import AdminSidebar from '@/components/Admin/AdminSidebar.jsx';
 
 import { Outlet } from 'react-router-dom'
 
