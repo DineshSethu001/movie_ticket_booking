@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { dummyShowsData } from '../../assets/assets'
 
 
-
-import React from 'react'
 import Title from '@/components/Admin/Title.jsx' // <--- CORRECTED
 import Loading from '@/components/Loading.jsx'     // <--- CORRECTED
 import { dateFormat } from '@/lib/dateFormat'
