@@ -3,11 +3,11 @@ import {Routes, Route,  useLocation} from 'react-router-dom'
 
 import { Home, Movies, MovieDetails, SeatLayout, MyBookings, Favorite } from './pages';
 import { Navbar, Footer } from './components';
-import AddShows from './pages/Admin/AddShows'
-import Dashboard from './pages/Admin/Dashboard';
-import ListBookings from './pages/Admin/ListBookings'
-import ListShows from './pages/Admin/ListShows'
-import Layout from './pages/Admin/Layout'
+import AddShows from './pages/Admin/AddShows.jsx'
+import Dashboard from './pages/Admin/Dashboard.jsx';
+import ListBookings from './pages/Admin/ListBookings.jsx'
+import ListShows from './pages/Admin/ListShows.jsx'
+import Layout from './pages/Admin/Layout.jsx'
 
 
 const App = () => {
