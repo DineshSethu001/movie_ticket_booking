@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { dummyShowsData } from '@/assets/assets'
 import { Loading } from '@/components'
 import Title from '@/components/Admin/Title.jsx'
-import { kConverter } from '@/lib/KConverter'
+import { kConverter } from '@/lib/kConverter.js'
 // -----------------------
 
 import { CheckIcon, StarIcon, DeleteIcon } from 'lucide-react'
